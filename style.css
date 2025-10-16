@@ -8,7 +8,8 @@ body {
 }
 
 h1 {
-    font-family: "poblet-diamond", sans-serif;
-    font-weight: 500;
-    font-style: normal;
+    text-align: center;
+    color: white;
+    font-family: "zeplin-vf", sans-serif;
+    font-variation-settings: "CONX" 1, "CONY" 1;
 }
