@@ -22,6 +22,7 @@
 "period": 3,
 "subjectArea": "Mathematics"
 },
+
 {
 "className": "BCC ENG121 The Writing Process" ,
 "teacher": "Matthew Sauter",
@@ -29,6 +30,7 @@
 "period": 4,
 "subjectArea": "English"
 },
+
 {
 "className": "AP Computer Science A" ,
 "teacher": "Christine Rehwinkel",
@@ -36,6 +38,7 @@
 "period": 5,
 "subjectArea": "Computer Science"
 },
+
 {
 "className": "Finacial Literacy" ,
 "teacher": "Kevin Morgan",
@@ -43,6 +46,7 @@
 "period": 6,
 "subjectArea": "Finance"
 },
+
 {
 "className": "Physical Education" ,
 "teacher": "Diana Keil",
