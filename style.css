@@ -6,3 +6,7 @@ html {
 body {
     background-color:  linear-gradient(rgb(190, 36, 36), rgb(245, 15, 15), rgb(231, 91, 91));
 }
+
+h1 {
+    text-align: center;
+}
