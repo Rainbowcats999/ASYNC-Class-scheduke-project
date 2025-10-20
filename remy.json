@@ -6,6 +6,7 @@
     "period": "1",
     "subjectArea": "English"
   },
+
   {
     "className": "Honors NJIT IS219 Advanced Website Development",
     "teacher": "Mr. Kilgore",
@@ -13,6 +14,7 @@
     "period": "2",
     "subjectArea": "Web Design"
   },
+
   {
     "className": "AP Calculus AB",
     "teacher": "Mr. Sandoval",
@@ -20,6 +22,7 @@
     "period": "3",
     "subjectArea": "Calculus"
   },
+
   {
     "className": "Applied Art 1",
     "teacher": "Ms. Zeller",
@@ -27,6 +30,7 @@
     "period": "4",
     "subjectArea": "Art"
   },
+
   {
     "className": "Health 4",
     "teacher": "Mr. Sininsky",
@@ -34,6 +38,7 @@
     "period": "5",
     "subjectArea": "Health"
   },
+
   {
     "className": "Italian 4",
     "teacher": "Sra. Raineri",
@@ -41,6 +46,7 @@
     "period": "6",
     "subjectArea": "Italian"
   },
+  
   {
     "className": "Financial Literacy",
     "teacher": "Mr. Morgan",
