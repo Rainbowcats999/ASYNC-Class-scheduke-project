@@ -6,6 +6,7 @@
         "period": 1,
         "subjectArea": "English"
     },
+
     {
         "className": "Honors NJIT IS219 Advanced Website Development WDP",
         "teacher": ["Mr. Kilgore"],
@@ -13,6 +14,7 @@
         "period": 2,
         "subjectArea": "Technology"
     },
+
     {
         "className": "Pre-Calculus",
         "teacher": ["Mr. Ploe"],
@@ -20,6 +22,7 @@
         "period": 3,
         "subjectArea": "Math"
     },
+
     {
         "className": "Public Speaking",
         "teacher": ["Ms. Bender"],
@@ -27,6 +30,7 @@
         "period": 4,
         "subjectArea": "English"
     },
+
     {
         "className": "AP Computer Science Principles",
         "teacher": ["Mrs. Leonard"],
@@ -34,6 +38,7 @@
         "period": 5,
         "subjectArea": "Technology"
     },
+
     {
         "className": "Physical Education",
         "teacher": ["Mrs. Keil"],
@@ -41,6 +46,7 @@
         "period": 6,
         "subjectArea": "Physical Education"
     },
+    
     {
         "className": "Applied Art 1",
         "teacher": ["Mrs. Fraser"],

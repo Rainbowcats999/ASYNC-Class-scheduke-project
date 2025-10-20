@@ -6,6 +6,7 @@
     "roomNumber" : "A121",
     "subjectArea" : "Government"
   },
+
   {
     "period" : 2,
     "className" : "Level 3 Advanced Web Design",
@@ -13,6 +14,7 @@
     "roomNumber" : "B111",
     "subjectArea" : "Computer Science"
   },
+
 {
     "period" : 3,
     "className" : "English 4",
@@ -20,6 +22,7 @@
     "roomNumber" : "E113",
     "subjectArea" : "English"
 },
+
  {
     "period" : 4,
     "className" : "Health 12",
@@ -27,6 +30,7 @@
     "roomNumber" : "C130",
     "subjectArea" : "Health"
  },
+
   {
     "period" : 5,
     "className" : "Applied Art 1",
@@ -34,6 +38,7 @@
     "roomNumber" : "D101",
     "subjectArea" : "Art"
   },
+
   {
 "period" : 6,
 "className" : "Criminology and Law",
@@ -41,6 +46,7 @@
 "roomNumber" : "A107",
 "subjectArea" : "Social Sciences"
   }, 
+  
  {
     "period" : 7,
     "className" : "Statistics",
