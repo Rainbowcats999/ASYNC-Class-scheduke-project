@@ -46,7 +46,7 @@ h1 {
     transform: scale(1.05);
 }
 
-
+/* My cards ain't changing color :( */
 .card.subject-English { border-left: 5px solid #4a90e2; }
 .card.subject-Math { border-left: 5px solid #f5a623; }
 .card.subject-Web { border-left: 5px solid #50e3c2; }
@@ -56,4 +56,3 @@ h1 {
 .card.subject-Gym { border-left: 5px solid #7ed321; }
 .card.subject-Finance { border-left: 5px solid #bd10e0; }
 .card.subject-Social { border-left: 5px solid #417505; }
-
