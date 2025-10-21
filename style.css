@@ -15,20 +15,32 @@ h1 {
 }
 
 .card {
-    margin-bottom: 15px;
-    transition: transform 0.3s, opacity 0.5s;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    padding: 15px;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    opacity: 0; /* start hidden for animation */
+}
+
+.card.opacity-1 {
+    opacity: 1;
+    transform: translateY(0);
 }
 
 .card:hover {
-    transform: translateY(-3px);
+    transform: translateY(-5px);
 }
 
-.subject-English { background-color: #f9c74f; }
-.subject-Math { background-color: #90be6d; }
-.subject-Technology { background-color: #577590; color: white; }
-.subject-Computer { background-color: #43aa8b; color: white; }
-.subject-Gym { background-color: #f94144; color: white; }
-.subject-Art { background-color: #f3722c; color: white; }
-.subject-Health { background-color: #4d908e; color: white; }
-.subject-Government { background-color: #277da1; color: white; }
-.subject-Social { background-color: #f8961e; color: white; }
+.card h5 {
+    font-weight: bold;
+}
+
+.card.subject-English { border-left: 5px solid #4a90e2; }
+.card.subject-Math { border-left: 5px solid #f5a623; }
+.card.subject-Web { border-left: 5px solid #50e3c2; }
+.card.subject-Computer { border-left: 5px solid #9013fe; }
+.card.subject-Art { border-left: 5px solid #f8e71c; }
+.card.subject-Health { border-left: 5px solid #d0021b; }
+.card.subject-Gym { border-left: 5px solid #7ed321; }
+.card.subject-Finance { border-left: 5px solid #bd10e0; }
+.card.subject-Social { border-left: 5px solid #417505; }
