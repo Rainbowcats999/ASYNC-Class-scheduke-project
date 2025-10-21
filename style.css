@@ -1,15 +1,34 @@
-html {
+html, body {
     height: 100%;
-    width: 100;
+    margin: 0;
 }
 
 body {
     background-image: linear-gradient(rgb(190, 36, 36), rgb(245, 15, 15), rgb(231, 91, 91));
+    font-family: "zeplin-vf", sans-serif;
 }
 
 h1 {
     text-align: center;
     color: white;
-    font-family: "zeplin-vf", sans-serif;
     font-variation-settings: "CONX" 1, "CONY" 1;
 }
+
+.card {
+    margin-bottom: 15px;
+    transition: transform 0.3s, opacity 0.5s;
+}
+
+.card:hover {
+    transform: translateY(-3px);
+}
+
+.subject-English { background-color: #f9c74f; }
+.subject-Math { background-color: #90be6d; }
+.subject-Technology { background-color: #577590; color: white; }
+.subject-Computer { background-color: #43aa8b; color: white; }
+.subject-Gym { background-color: #f94144; color: white; }
+.subject-Art { background-color: #f3722c; color: white; }
+.subject-Health { background-color: #4d908e; color: white; }
+.subject-Government { background-color: #277da1; color: white; }
+.subject-Social { background-color: #f8961e; color: white; }
