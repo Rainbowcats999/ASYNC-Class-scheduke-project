@@ -3,19 +3,29 @@
 <head>
     <title>Classmates' Schedules</title>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"/>
     
-    <!-- Bootstrap CSS v5.3 -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"/>
+    <!-- Your font -->
     <link rel="stylesheet" href="https://use.typekit.net/xla1zxk.css">
+    
+    <!-- Custom CSS -->
     <link href="style.css" rel="stylesheet">
 </head>
+
 <body>
-    <header class="mb-4">
+    <header class="py-4">
         <h1>Classmates' Senior Schedules</h1>
-        <p class="text-center text-white">View your friends' schedules by selecting from the dropdown below.</p>
-        <div class="text-center mb-3">
-            <select id="friendSelector" class="form-select w-50 mx-auto">
+        <p class="text-center text-white">Select a schedule from the dropdown below.</p>
+    </header>
+
+    <main class="container my-5">
+        <div class="mb-3">
+            <label for="friendSelector" class="form-label text-white">Select a schedule:</label>
+            <select id="friendSelector" class="form-select">
                 <option value="MySchedule.json" selected>My Schedule</option>
                 <option value="AnnieSchedule.json">Annie</option>
                 <option value="CooperSchedule.json">Cooper</option>
@@ -24,19 +34,23 @@
                 <option value="RemySchedule.json">Remy</option>
             </select>
         </div>
-        <div id="status" class="text-center mb-2"></div>
-    </header>
-    
-<main class="container my-5">
-    <div id="status"></div>
-    <div id="scheduleContainer" class="row g-3"></div>
-</main>
 
-    
-    <footer class="text-center mt-4 text-white">
-        &copy; 2025 Created by Elizabeth Rizov
+        <div id="status"></div>
+        <div id="scheduleContainer" class="row g-3"></div>
+    </main>
+
+    <footer class="text-center text-white py-3">
+        &copy; 2025 Your Name
     </footer>
 
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" 
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" 
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+
+    <!-- Custom JS -->
     <script src="script.js"></script>
 </body>
 </html>
+
