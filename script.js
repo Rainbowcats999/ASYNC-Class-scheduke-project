@@ -20,7 +20,39 @@ const schedules = {
       "roomNumber": "E215",
       "period": 3,
       "subjectArea": "Mathematics"
-    }
+    },
+    {
+    "className": "BCC ENG121 The Writing Process" ,
+    "teacher": "Matthew Sauter",
+    "roomNumber": "E111",
+    "period": 4,
+    "subjectArea": "English"
+    },
+
+    {
+    "className": "AP Computer Science A" ,
+    "teacher": "Christine Rehwinkel",
+    "roomNumber": "A234",
+    "period": 5,
+    "subjectArea": "Computer Science"
+},
+
+{
+    "className": "Finacial Literacy" ,
+    "teacher": "Kevin Morgan",
+    "roomNumber": "A132",
+    "period": 6,
+    "subjectArea": "Finance"
+},
+
+{
+    "className": "Physical Education" ,
+    "teacher": "Diana Keil",
+    "roomNumber": "Main Gym",
+    "period": 7,
+    "subjectArea": "Gym"
+}
+
   ]
 };
 
