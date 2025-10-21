@@ -81,7 +81,7 @@ function renderSchedule(fileName) {
 
   data.forEach(cls => {
     const html = `
-      <div class="card col-md-4 p-3 mb-3 opacity-1">
+      <div class="card col-md-3 p-3 mb-3 opacity-1">
         <h5>${cls.className}</h5>
         <p><strong>Teacher:</strong> ${Array.isArray(cls.teacher) ? cls.teacher.join(', ') : cls.teacher}</p>
         <p><strong>Room:</strong> ${cls.roomNumber}</p>
