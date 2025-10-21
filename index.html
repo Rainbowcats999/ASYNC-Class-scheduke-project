@@ -23,24 +23,28 @@
     </header>
 
     <main class="container my-5">
-        <div class="mb-3">
-            <label for="friendSelector" class="form-label text-white">Select a schedule:</label>
-            <select id="friendSelector" class="form-select">
-                <option value="MySchedule.json" selected>My Schedule</option>
-                <option value="AnnieSchedule.json">Annie</option>
-                <option value="CooperSchedule.json">Cooper</option>
-                <option value="LaylaSchedule.json">Layla</option>
-                <option value="NickSchedule.json">Nick</option>
-                <option value="RemySchedule.json">Remy</option>
-            </select>
-        </div>
+    <div class="mb-3">
+        <label for="friendSelector" class="form-label text-white">Select a schedule:</label>
+        <select id="friendSelector" class="form-select">
+            <option value="MySchedule.json" selected>My Schedule</option>
+            <option value="AnnieSchedule.json">Annie</option>
+            <option value="CooperSchedule.json">Cooper</option>
+            <option value="LaylaSchedule.json">Layla</option>
+            <option value="NickSchedule.json">Nick</option>
+            <option value="RemySchedule.json">Remy</option>
+        </select>
+    </div>
 
-        <div id="status"></div>
-        <div id="scheduleContainer" class="row g-3"></div>
-    </main>
+    <div id="status"></div>
+
+    <!-- Bootstrap row for schedule cards -->
+    <div id="scheduleContainer" class="row justify-content-center g-3">
+        <!-- JS will insert cards here as col-md-4 items -->
+    </div>
+</main>
 
     <footer class="text-center text-white py-3">
-        &copy; 2025 Your Name
+        &copy; 2025 Elizabeth Rizov
     </footer>
 
     <!-- Bootstrap JS -->
